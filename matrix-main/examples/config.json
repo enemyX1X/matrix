@@ -1,0 +1,21 @@
+{
+  "robot": {
+    "mujoco_model": "Content/model/xgb/xgb.xml",
+    "scene_model": "",
+    "weapon": "",
+    "network_mode": "standalone",
+    "sensor_sync_mode": true,
+    "inside_mc": true,
+    "zenoh_router": "tcp/0.0.0.0:7447",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "state_port": "mujoco/state",
+    "cmd_port": "mujoco/cmd",
+    "mujoco_running": false,
+    "main_body": "base_link",
+    "sensors": {}
+  }
+}
